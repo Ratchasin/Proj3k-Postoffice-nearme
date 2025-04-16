@@ -111,6 +111,6 @@ void User::saveToFile(const string& filename) {
         outFile.close();
         cout << "User information saved successfully." << endl;
     } else {
-        cout << "Failed to open file for writing!" << endl;
+        cout << " Failed to open file for writing!" << endl;
     }
 }
