@@ -50,7 +50,7 @@ void User::RegisterSystem() {
         } else {
             cout << "\033[1;31m===================================================" << endl;
             cout << "Password must be at least 8 characters (letters/numbers/_/-)." << endl;
-            cout << "===================================================\033[0m" << endl;
+            cout << "=================================================\033[0m" << endl;
         }
     }
 }
